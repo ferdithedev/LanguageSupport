@@ -17,6 +17,6 @@ individually in as many languages as you want.
 2. After that you will see that a few files were created: `players.yml`, `lsconfig.yml`, `de.yml`, `en.yml`.
 In the `lsconfig.yml` file you have to set your chat format if your server software is spigot or less for example:
 
-![chat](https://user-images.githubusercontent.com/69450649/162993473-20756dbf-6c0c-4e3c-98bc-fefb39b76edb.png)
+  ![chat](https://user-images.githubusercontent.com/69450649/162993473-20756dbf-6c0c-4e3c-98bc-fefb39b76edb.png)
 
-![config](https://user-images.githubusercontent.com/69450649/162993609-1f4497af-fe15-4093-ae67-8885f53c55e5.png)
+  ![config](https://user-images.githubusercontent.com/69450649/162993609-1f4497af-fe15-4093-ae67-8885f53c55e5.png)
