@@ -37,7 +37,7 @@ In the message config of the plugin you want to translate (most times it's calle
 
 ![grafik](https://user-images.githubusercontent.com/69450649/162997604-07dfedc0-54d9-4404-b570-d757a77ff031.png)
 
-#### In language files
+##### In language files
 
 Now you have to go back in the `languages/` subdirectory in the plugin's datafolder and go through every file in there and add a new point with the translation in the file's specific language:
 
