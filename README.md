@@ -21,6 +21,7 @@ In the `lsconfig.yml` file you have to set your chat format if your server softw
 ![chat](https://user-images.githubusercontent.com/69450649/162993473-20756dbf-6c0c-4e3c-98bc-fefb39b76edb.png)
 
 ![config](https://user-images.githubusercontent.com/69450649/162993609-1f4497af-fe15-4093-ae67-8885f53c55e5.png)
+
 3. Next you want to set your default language again in `lsconfig.yml`
 4. As the last step you have to reload all things you changed. The easiest way to do so is using the `/lsreload <config/players/languages>` command and execute it with each argument one time.
 
