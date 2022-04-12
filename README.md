@@ -45,5 +45,10 @@ Now you have to go back in the `languages/` subdirectory in the plugin's datafol
 
 ![grafik](https://user-images.githubusercontent.com/69450649/162999354-9c625b6c-5006-4e50-bd6e-2f2ea4d25b8e.png)
 
+#### With variables
+
+Many messages have variables such as: 
+
+![2022-04-12_17 35 36](https://user-images.githubusercontent.com/69450649/163000283-d5e4b006-6b4a-454d-9feb-a4e2c807c5d5.png)
 
 
