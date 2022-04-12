@@ -9,8 +9,8 @@ commands:
   lslist:
     description: List all languages
   lsreload:
-    description: Reloads config/playerlanguage/languages
-    usage: /reload [config/playerlanguage/languages]
+    description: Reloads config/players/languages
+    usage: /reload <config/players/languages>
   lang:
     description: Set your language
     usage: /lang [language]
