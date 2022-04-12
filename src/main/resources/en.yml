@@ -1,0 +1,21 @@
+#example language file
+Translations:
+  #basic translations
+  no-permission: "&cYou don't have the permission to do that!"
+  missing-arguments: "&cYou need more arguments"
+  wrong-argument: "&cThis argument does not exist"
+  reload-config-success: "&aReloaded config successfully"
+  must-be-player: "&cYou must be a player to perform this command"
+  #translations with variables
+  translation-not-found: "&cCan't find translation '&3%translation%&c'. Please contact an administrator!"
+  language-not-found: "&cLanguage &3%lang% &cnot found"
+  cant-find-automatically: "&3Can't find language by your locale. Please select your language manually"
+  set-language-success: "&aLanguage &3%lang% &aset successfully"
+  say-player-language: "&aYour language is:&3 %lang%"
+  click-to-set-language: "Click to set your language to %lang%"
+  language-unavailable-chat: "&cLanguage &3%lang% &cis currenty unavailable"
+  language-unavailable-list: "Language %lang% is currenty unavailable"
+  language-already-set-chat: "&cYour language is already &3%lang%"
+  language-already-set-list: "Your language is already %lang%"
+  languages-list: "&3Languages: "
+

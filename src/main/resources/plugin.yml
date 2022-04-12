@@ -1,0 +1,17 @@
+name: AlplayUtils
+version: 1.2.0
+main: me.ferdithedev.languagesupport.AlplayUtils
+depend: [ ProtocolLib ]
+authors: [ Ferdi_the_best ]
+prefix: LS
+description: Translate all messages of every plugin for every player individually
+commands:
+  lslist:
+    description: List all languages
+  lsreload:
+    description: Reloads config/playerlanguage/languages
+    usage: /reload [config/playerlanguage/languages]
+  lang:
+    description: Set your language
+    usage: /lang [language]
+    aliases: ['language']

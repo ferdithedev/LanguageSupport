@@ -1,0 +1,17 @@
+# please restart your server after loading this plugin the first time
+DefaultLanguage: en
+UseTheSetlangPermission: false
+ReplaceWholeMessage: false
+EnabledColor: GREEN
+DisabledColor: RED
+Languages:
+  - ==: LSLanguage
+    name: English
+    code: en
+    enabled: true
+  - ==: LSLanguage
+    name: Deutsch
+    code: de
+    enabled: true
+# spigot only
+ChatFormat: "<%player%>"

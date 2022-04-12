@@ -1,0 +1,20 @@
+#beispiel language file
+Translations:
+  #normale uebersetzungen
+  no-permission: "&cDazu hast du keine Rechte!"
+  missing-arguments: "&cDu benoetigst mehr Argumente"
+  wrong-argument: "&cDieses Argument existiert nicht"
+  reload-config-success: "&aConfig erfolgreich neugeladen"
+  must-be-player: "&cDu musst ein Spieler sein, um diesen Command zu benutzen"
+  #uebersetzungen mit variablen
+  translation-not-found: "&cUebersetzung '&3%translation%&c' konnte nicht gefunden werden. Bitte kontaktiere einen Administrator!"
+  language-not-found: "&cSprache &3%lang% &ckonnte nicht gefunden werden"
+  cant-find-automatically: "&cDeine Sprache kann nicht gefunden werden. Bitte lege deine Sprache manuell fest"
+  set-language-success: "&aSprache &3%lang% &aerfolgreich festgelegt"
+  say-player-language: "&aDeine Sprache ist:&3 %lang%"
+  click-to-set-language: "Klicke um deine Sprache zu %lang% zu setzen"
+  language-unavailable-chat: "&cSprache &3%lang% &cist zur Zeit nicht verfügbar"
+  language-unavailable-list: "Sprache %lang% ist zur Zeit nicht verfügbar"
+  language-already-set-chat: "&cDeine Sprache ist bereits &3%lang%"
+  language-already-set-list: "Deine Sprache ist bereits %lang%"
+  languages-list: "&3Sprachen: "
