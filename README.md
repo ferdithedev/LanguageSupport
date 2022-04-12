@@ -13,8 +13,8 @@ individually in as many languages as you want.
 
 ### Setting up
 
-You have to restart your server one time after you loaded the plugin the first time so less bugs can occur!
-After that you will see that a few files were created: `players.yml`, `lsconfig.yml`, `de.yml`, `en.yml`.
+1. You have to restart your server one time after you loaded the plugin the first time so less bugs can occur!
+2. After that you will see that a few files were created: `players.yml`, `lsconfig.yml`, `de.yml`, `en.yml`.
 In the `lsconfig.yml` file you have to set your chat format if your server software is spigot or less for example:
 
 ![chat](https://user-images.githubusercontent.com/69450649/162993473-20756dbf-6c0c-4e3c-98bc-fefb39b76edb.png)
