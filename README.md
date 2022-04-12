@@ -43,6 +43,7 @@ Now you have to go back in the `languages/` subdirectory in the plugin's datafol
 
 ![grafik](https://user-images.githubusercontent.com/69450649/162998956-c2cdad7d-dc5b-4e10-855e-c2b28653bb40.png)
 
+![grafik](https://user-images.githubusercontent.com/69450649/162999354-9c625b6c-5006-4e50-bd6e-2f2ea4d25b8e.png)
 
 
 
