@@ -51,4 +51,7 @@ Many messages have variables such as:
 
 ![2022-04-12_17 35 36](https://user-images.githubusercontent.com/69450649/163000283-d5e4b006-6b4a-454d-9feb-a4e2c807c5d5.png)
 
+You have to again use a placeholder but also define the variables:
+
+![messages](https://user-images.githubusercontent.com/69450649/163003606-76c525bd-73b2-428e-b97d-49a7938a9535.png)
 
