@@ -55,3 +55,4 @@ You have to again use a placeholder but also define the variables:
 
 ![messages](https://user-images.githubusercontent.com/69450649/163003606-76c525bd-73b2-428e-b97d-49a7938a9535.png)
 
+You can also use more than one variable: `ban-notification,vars={operator=%OPERATOR%,name=%NAME%}` is an excerpt from a modified AdvancedBans config
