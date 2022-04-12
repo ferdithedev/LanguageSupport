@@ -14,4 +14,4 @@ individually in as many languages as you want.
 ### Setting up
 
 You have to restart your server one time after you loaded the plugin the first time so less bugs can occur!
-After that you will see that a few files were created: `players.yml, lsconfig.yml, de.yml, en.yml`
+After that you will see that a few files were created: `players.yml`,` lsconfig.yml`,` de.yml`,` en.yml`.
