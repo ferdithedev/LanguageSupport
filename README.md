@@ -8,7 +8,7 @@ individually in as many languages as you want.
 
 - This plugin isn't using a translation API or something so you have to write each translation in every language manual!
 - This plugin is still under development so it's possible that bugs may occur! Please report them in the issues section.
-- This plugin edits the chat packets a player is receiving using [ProtocolLib](https://www.spigotmc.org/resources/protocollib.1997/)!
+- This plugin edits the chat packets a player is receiving using [ProtocolLib](https://www.spigotmc.org/resources/protocollib.1997/) so it must be installed on the server!
 
 ## How to use
 
