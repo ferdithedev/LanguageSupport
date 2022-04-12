@@ -34,6 +34,7 @@ In a subdirectory called `languages/` are to files by default. These contain the
 ##### In other plugins config
 
 In the message config of the plugin you want to translate (most times it's called `messages.yml`) you have to go to the message and edit the message to a placeholder:
+
 ![grafik](https://user-images.githubusercontent.com/69450649/162997604-07dfedc0-54d9-4404-b570-d757a77ff031.png)
 
 
