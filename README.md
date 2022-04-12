@@ -25,4 +25,16 @@ In the `lsconfig.yml` file you have to set your chat format if your server softw
 3. Next you want to set your default language again in `lsconfig.yml`
 4. As the last step you have to reload all things you changed. The easiest way to do so is using the `/lsreload <config/players/languages>` command and execute it with each argument one time.
 
+### Editing translations
+
+In a subdirectory called `languages/` are to files by default. These contain the messages the plugin will need in two languages (`de.yml` -> german, `en.yml` -> english). 
+
+#### Without variables
+
+##### In other plugins config
+
+In the message config of the plugin you want to translate (most times it's called `messages.yml`) you have to go to the message and edit the message to a placeholder:
+![grafik](https://user-images.githubusercontent.com/69450649/162997604-07dfedc0-54d9-4404-b570-d757a77ff031.png)
+
+
 
