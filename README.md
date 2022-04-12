@@ -56,3 +56,20 @@ You have to again use a placeholder but also define the variables:
 ![messages](https://user-images.githubusercontent.com/69450649/163003606-76c525bd-73b2-428e-b97d-49a7938a9535.png)
 
 You can also use more than one variable: `ban-notification,vars={operator=%OPERATOR%,name=%NAME%}` is an excerpt from a modified AdvancedBans config
+
+### Adding languages
+
+Each language has one `.yml` file with the code of the ISO-3166-1-codelist of the country/language. If it doesn't exist in the list just thing of one yourself. For example the file for english is called `en.yml`.
+To register the language you have to add one element to the `Languages` list in the `lsconfig.yml`:
+```yml
+Languages:
+  - ==: LSLanguage
+    name: English
+    code: en
+    enabled: true
+  - ==: LSLanguage
+    name: Deutsch
+    code: de
+    enabled: true
+```
+it's important that the `code` is equal to the file name.
