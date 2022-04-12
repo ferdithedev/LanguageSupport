@@ -72,4 +72,12 @@ Languages:
     code: de
     enabled: true
 ```
-it's important that the `code` is equal to the file name.
+It's important that the `code` is equal to the file name.
+
+## Commands
+
+| Command                                | Description                                             |
+| -------------------------------------- | ------------------------------------------------------- |
+| /lslist                                | Lists all languages                                     |
+| /lsreload <config/players/languages>   | Reloads the specific file(s)                            |
+| /lang <auto/lang-code>                 | Sets your language (auto sets it to your game language) |
