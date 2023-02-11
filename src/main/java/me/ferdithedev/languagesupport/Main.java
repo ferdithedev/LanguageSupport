@@ -7,9 +7,9 @@ import me.ferdithedev.languagesupport.events.JoinEvent;
 import org.bukkit.configuration.serialization.ConfigurationSerialization;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public final class AlplayUtils extends JavaPlugin {
+public final class Main extends JavaPlugin {
 
-    private static AlplayUtils instance;
+    private static Main instance;
     private static LanguageSupport languageSupport;
 
     static {
@@ -31,7 +31,7 @@ public final class AlplayUtils extends JavaPlugin {
         return languageSupport;
     }
 
-    public static AlplayUtils getInstance() {
+    public static Main getInstance() {
         return instance;
     }
 

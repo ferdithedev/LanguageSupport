@@ -1,6 +1,6 @@
 package me.ferdithedev.languagesupport.commands;
 
-import me.ferdithedev.languagesupport.AlplayUtils;
+import me.ferdithedev.languagesupport.Main;
 import me.ferdithedev.languagesupport.LSLanguage;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
@@ -14,7 +14,7 @@ public class ReloadCommands implements CommandExecutor, TabCompleter {
 
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
-        if(AlplayUtils.getLanguageSupport().isNotLoaded()) return false;
+        if(Main.getLanguageSupport().isNotLoaded()) return false;
         if(sender.hasPermission("au.ls.reload")) {
             if(args.length > 0) {
                 switch (args[0]) {
@@ -23,11 +23,11 @@ public class ReloadCommands implements CommandExecutor, TabCompleter {
                         sender.sendMessage("reload-config-success");
                     }
                     case "players" -> {
-                        AlplayUtils.getLanguageSupport().reloadPlayers();
+                        Main.getLanguageSupport().reloadPlayers();
                         sender.sendMessage("reload-config-success");
                     }
                     case "languages" -> {
-                        AlplayUtils.getLanguageSupport().reloadLangConfigs();
+                        Main.getLanguageSupport().reloadLangConfigs();
                         sender.sendMessage("reload-config-success");
                     }
                     default -> {
@@ -44,10 +44,10 @@ public class ReloadCommands implements CommandExecutor, TabCompleter {
     }
 
     private void reloadConfig() {
-        AlplayUtils.getLanguageSupport().reloadConfig();
-        AlplayUtils.getLanguageSupport().setLanguages((List<LSLanguage>) AlplayUtils.getLanguageSupport().getLSConfig().get("Languages"));
-        AlplayUtils.getLanguageSupport().loadEnabledLanguages();
-        AlplayUtils.getLanguageSupport().loadEnabledTranslations();
+        Main.getLanguageSupport().reloadConfig();
+        Main.getLanguageSupport().setLanguages((List<LSLanguage>) Main.getLanguageSupport().getLSConfig().get("Languages"));
+        Main.getLanguageSupport().loadEnabledLanguages();
+        Main.getLanguageSupport().loadEnabledTranslations();
     }
 
     @Override

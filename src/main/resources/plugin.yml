@@ -1,6 +1,6 @@
-name: AlplayUtils
+name: LanguageSupport
 version: 1.2.0
-main: me.ferdithedev.languagesupport.AlplayUtils
+main: me.ferdithedev.languagesupport.Main
 depend: [ ProtocolLib ]
 authors: [ Ferdi_the_best ]
 prefix: LS
