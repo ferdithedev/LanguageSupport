@@ -27,7 +27,7 @@ In the `lsconfig.yml` file you have to set your chat format if your server softw
 
 ### Editing translations
 
-In a subdirectory called `languages/` are to files by default. These contain the messages the plugin will need in two languages (`de.yml` -> german, `en.yml` -> english). 
+In a subdirectory called `languages/` are two files by default. These contain the messages the plugin will need in two languages (`de.yml` -> german, `en.yml` -> english). 
 
 #### Without variables
 
